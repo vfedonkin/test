@@ -1,0 +1,27 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "ApiManagementClient WebScout test endpoints",
+    "description": "Endpoints for WebScout",
+    "version": "2017-03-01"
+  },
+  "host": "management.azure.com",
+  "schemes": [
+    "https"
+  ],
+  "consumes": [
+    "application/json"
+  ],
+  "produces": [
+    "application/json"
+  ],
+  "paths": {
+    "/properties": {
+      "get": {"operationId": "Property_List"}
+      },
+    "/properties/p1": {
+      "get": {"operationId": "Property_Get"},
+      "put": {"operationId": "Property_Create"}
+    }
+  }
+}
