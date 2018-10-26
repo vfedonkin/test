@@ -16,12 +16,8 @@
     "application/json"
   ],
   "paths": {
-    "/properties": {
+    "/properties?api-version=api-version=2017-03-01": {
       "get": {"operationId": "Property_List"}
-      },
-    "/properties/p1": {
-      "get": {"operationId": "Property_Get"},
-      "put": {"operationId": "Property_Create"}
-    }
+      }
   }
 }
