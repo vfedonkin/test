@@ -16,7 +16,7 @@
     "application/json"
   ],
   "paths": {
-    "/properties?api-version=api-version=2017-03-01": {
+    "/properties?api-version=2017-03-01": {
       "get": {"operationId": "Property_List"}
       }
   }
